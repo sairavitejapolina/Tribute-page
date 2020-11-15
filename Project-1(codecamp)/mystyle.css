@@ -1,0 +1,81 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    transition: text-shadow .3s;
+    text-align: center;
+}
+#title:hover{
+    color: ghostwhite;
+    text-shadow: 1px 1.5px black;
+}
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    max-height: 20%;
+    transition: box-shadow .3s;
+    border-radius:20px;
+    border: 1px;
+  }
+  #img-caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    transition: text-shadow .3s;
+  }
+  #img-caption:hover{
+      color: ghostwhite;
+      text-shadow: 1px 1.5px black;
+  }
+  #image:hover{
+    box-shadow: 0 0 20px 2px black;
+  }
+  #tribute-info{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+  #mypara{
+      transition: text-shadow .3s ;
+  }
+  #mypara:hover{
+      color: ghostwhite;
+      text-shadow: 1px 1.5px black;
+  }
+  footer img {
+    display: inline;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+    max-width: 50px;
+    transition: box-shadow .3s;
+    border-radius: 50px;
+   }
+   footer img:hover{
+       box-shadow: 0px 0px 20px 2px cornsilk;
+   }
+   footer{
+       margin-right: auto;
+       margin-left: auto;
+       display: block;
+   }
